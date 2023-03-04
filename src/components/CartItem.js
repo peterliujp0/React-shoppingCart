@@ -26,7 +26,7 @@ const CartItem = ({ id, img, title, price, amount }) => {
           className="amount-btn"
           onClick={() => {
             dispatch(increase({ id }));
-          }}
+          }} 
         >
           <ChevronUp />
         </button>
