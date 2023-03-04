@@ -4,7 +4,7 @@ import { closeModal } from '../features/modal/modalSlice';
 
 const Modal = () => {
   const dispatch = useDispatch();
-  return (
+  return ( 
     <aside className='modal-container'>
       <div className='modal'>
         <h4>remove all items from your shopping cart?</h4>
